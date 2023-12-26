@@ -5,7 +5,6 @@
     //  modul Morgan
     const morgan = require('morgan'); 
     
-    
     const path = require('path');
 
     const app = express();
@@ -23,9 +22,7 @@
     //router dokumentasi swagger
     app.use('/docs', swaggerUI.serve, swaggerUI.setup(swaggerJSON))
 
-
     const session = require('express-session');
-
 
     app.use(express.json());
     app.use(express.urlencoded({ extended: false }));
@@ -35,7 +32,6 @@
       saveUninitialized: true,
     }));
 
-
     app.set('view engine', 'ejs'); // Mengatur EJS sebagai view engine
     app.set('views', __dirname + '/views'); // Menentukan direktori views
 
@@ -44,18 +40,14 @@
     // Gunakan rute router.js
     app.use('/views/router', routerView);
 
-    
     //Rute Menu Utama
     app.get('/', (req, res) => {
       res.render('index');
     });
 
-
     // Menetapkan middleware express.static
     app.use(express.static(path.join(__dirname, 'public')));
     
-
-
     
     app.listen(port, () => {
       console.log(`Server berjalan di http://localhost:${port}`);

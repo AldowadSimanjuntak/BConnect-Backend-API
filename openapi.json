@@ -26,8 +26,8 @@
   "paths": {
     "/auth/register": {
       "post": {
-        "summary": "Register New User",
-        "description": "Register a new user in the system.",
+        "summary": "Register fot New User",
+        "description": "Register a new user in the system B-Connects.",
         "tags": [
           "auth"
         ],
@@ -65,10 +65,10 @@
             "description": "Registration successful. A token will be generated and can be used for login."
           },
           "400": {
-            "description": "Invalid request"
+            "description": "Invalid request."
           },
           "409": {
-            "description": "Email is already in use"
+            "description": "Email is already in use. Try another email."
           }
         }
       }
