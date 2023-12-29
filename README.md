@@ -17,6 +17,15 @@
    - Allow users to reset their passwords securely.
 
 ## Installation
+# Clone this repository
+      https://github.com/AldowadSimanjuntak/BConnect-Backend-API.git
+# move to project :
+      cd BConnect-Backend-API
+# install dependencies
+      npm install
+# Run the program :
+      npm start
+And then Server running in :  http://localhost:4000
 
 ## Endpoints
 
