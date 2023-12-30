@@ -4,8 +4,6 @@
 
 - [Features](#features)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Endpoints](#endpoints)
 - [CRUD Operations](#crud-operations)
 
 ## Features
@@ -18,7 +16,7 @@
 
 ## Installation
 # Clone this repository
-      https://github.com/AldowadSimanjuntak/BConnect-Backend-API.git
+      git clone https://github.com/AldowadSimanjuntak/BConnect-Backend-API.git
 # move to project :
       cd BConnect-Backend-API
 # install dependencies
@@ -26,8 +24,6 @@
 # Run the program :
       npm start
 And then Server running in :  http://localhost:4000
-
-## Endpoints
 
 ## CRUD Operations
 
