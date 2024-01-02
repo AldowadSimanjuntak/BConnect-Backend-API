@@ -25,11 +25,9 @@ Backend API for B-connect-apps, providing secure authentication features such as
       npm start
 And then Server running in :  http://localhost:4000
 
-<<<<<<< HEAD
 ## Endpoints
-
-=======
->>>>>>> cab8a3dd1e619dbf6f2876dcec7405430e4fe669
+The endpoint is `Url+user`
+in this local host the endpoint is `http://localhost:4000/user`
 ## CRUD Operations
 
 # User:
