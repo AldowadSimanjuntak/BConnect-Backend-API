@@ -4,8 +4,6 @@ Backend API for B-connect-apps, providing secure authentication features such as
 
 - [Features](#features)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Endpoints](#endpoints)
 - [CRUD Operations](#crud-operations)
 
 ## Features
@@ -18,7 +16,7 @@ Backend API for B-connect-apps, providing secure authentication features such as
 
 ## Installation
 # Clone this repository
-      https://github.com/AldowadSimanjuntak/BConnect-Backend-API.git
+      git clone https://github.com/AldowadSimanjuntak/BConnect-Backend-API.git
 # move to project :
       cd BConnect-Backend-API
 # install dependencies
@@ -27,8 +25,11 @@ Backend API for B-connect-apps, providing secure authentication features such as
       npm start
 And then Server running in :  http://localhost:4000
 
+<<<<<<< HEAD
 ## Endpoints
-      /User
+
+=======
+>>>>>>> cab8a3dd1e619dbf6f2876dcec7405430e4fe669
 ## CRUD Operations
 
 # User:
