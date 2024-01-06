@@ -1,6 +1,20 @@
 ## Endpoint API B-Connects-App
 Backend API for B-connect-apps, providing secure authentication features such as user registration and login. Empowering the Indonesian Culture App with seamless and reliable user management
-## Table of Contents
+
+## Building from Scratch
+
+To build the B-Connects-App API from scratch, we used the following technologies and tools:
+
+1. **RESTFUL APIs**: Designing APIs with Express.
+2. **ORM Prisma**: Database modeling and interaction.
+3. **Google Cloud SQL (PostgreSQL)**: Database for storing application data.
+4. **JSON Web Tokens (JWT)**: Providing secure authentication.
+5. **Bcrypt**: Hashing passwords for user security.
+6. **Google Cloud Run**: Deployment of the application.
+7. **Unit Testing with Jest and Superbase**: Ensuring the reliability of the codebase.
+8. **Documentation with Swagger & Postman**: Documenting API endpoints for easy integration.
+
+## Table of Content
 
 - [Features](#features)
 - [Installation](#installation)
@@ -27,7 +41,8 @@ And then Server running in :  http://localhost:4000
 
 ## Endpoints
 The endpoint is `Url+user`
-in this local host the endpoint is `http://localhost:4000/user`
+
+In this local host the endpoint is `http://localhost:4000/user`
 ## CRUD Operations
 
 # User:
