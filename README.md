@@ -1,4 +1,4 @@
-## Endpoint API B-Connects-App
+##  API B-Connects-App
 Backend API for B-connect-apps, providing secure authentication features such as user registration and login. Empowering the Indonesian Culture App with seamless and reliable user management
 
 ## Building from Scratch
